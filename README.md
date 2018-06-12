@@ -1,4 +1,4 @@
-# PotholeDetectionandLogging-master1
+# PotholeDetectionAndAugmentedNavigation
 
 This application detects the potholes and displays the location of potholes on map and allows the user to remove fake potholes.
 
