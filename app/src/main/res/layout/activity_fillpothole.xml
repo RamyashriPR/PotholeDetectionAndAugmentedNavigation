@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+
+    android:background="@drawable/hel8"
+    tools:context="hackathon.honeywell.potholedetectionandlogging.fillpothole"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="DuplicateIds">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="@android:color/transparent"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text=" POTHOLE LOCATION"
+            android:textColor="@android:color/white"
+            android:textSize="35sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+
+
+            tools:ignore="DuplicateIds" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="175dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text=" LATITUDE "
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="175dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="175dp"
+            android:layout_height="35dp"
+
+            android:layout_margin="10dp"
+
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="LONGITUDE "
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            tools:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:id="@+id/tv22"
+            android:background="@android:color/transparent"
+            android:gravity="start"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="175dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="FREQUENCY"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv33"
+            android:layout_width="175dp"
+            android:layout_height="35dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"></LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="100dp"
+
+        >
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:backgroundTint="#e25412"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:onClick="fillPothole"
+            android:text=" FILL POTHOLE "
+            android:textColor="#d9e5f3"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/message1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#e25412"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text=" BACK TO MENU "
+            android:textColor="#d9e5f3"
+            android:textSize="25sp"
+
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+
